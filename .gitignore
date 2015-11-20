@@ -1,0 +1,6 @@
+/tags
+pws.vbs
+*.exe
+*.obj
+/bite2other/*.sdf
+/bite2other/bite2other/Debug

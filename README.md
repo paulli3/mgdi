@@ -1,1 +1,1 @@
-upload.bat push "http://git.oschina.net/paulli/c-lean master"
+upload.bat push "http://git.oschina.net/paulli/mgdi master"

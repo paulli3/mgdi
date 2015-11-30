@@ -9,7 +9,8 @@ DEBUG=/GA /MD /Ox /Ot /W3 /c /nologo  /EHsc #/link  /INCREMENTAL:no /NODEFAULTLI
 OUTOBJ=/Fo:$@
 
 SOURCES=../bin/main.obj \
-		../bin/App.obj
+		../bin/App.obj\
+		../bin/debug.obj
 OUTDIR="../bin/"
 
 .SUFFIXES : .cpp
@@ -24,6 +25,8 @@ main.exe:$(SOURCES)
 ../bin/main.obj:main.cpp
 	$(cc) $?  $(DEBUG) $(OUTOBJ)  $(includeDir)
 ../bin/App.obj:App.cpp
+	$(cc) $?  $(DEBUG) $(OUTOBJ)  $(includeDir)
+../bin/debug.obj:debug.cpp
 	$(cc) $?  $(DEBUG) $(OUTOBJ)  $(includeDir)
 
 

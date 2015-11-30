@@ -4,3 +4,48 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	Development	//
+Click	event.h	/^        Click           = 0x001,$/;"	e	enum:Event::EventType
+ClickEventFun	event.h	/^    typedef void (*ClickEventFun)(ClickEventParam* Param); \/\/定义函数型的指针回调类型$/;"	t	namespace:Event
+ClickEventParam	event.h	/^    class ClickEventParam{$/;"	c	namespace:Event
+CreateApp	App.cpp	/^int App::CreateApp()$/;"	f	class:App
+CreateWinApp	App.cpp	/^int App::CreateWinApp(HINSTANCE* hInstance, HINSTANCE* hPrevInstance,LPSTR lpCmdLine, int nCmdShow)$/;"	f	class:App
+DbClick	event.h	/^        DbClick         = 0x002,$/;"	e	enum:Event::EventType
+DbRClick	event.h	/^        DbRClick        = 0x004,$/;"	e	enum:Event::EventType
+Event	event.h	/^namespace Event$/;"	n
+EventType	event.h	/^    enum EventType{$/;"	g	namespace:Event
+Events	layer.h	/^        int Events[5]; \/\/事件列表$/;"	m	class:layer
+GetInstance	debug.cpp	/^debug_output_console & debug_output_console::GetInstance()$/;"	f	class:debug_output_console
+KeyEventParam	event.h	/^    class KeyEventParam{$/;"	c	namespace:Event
+MouseEnter	event.h	/^        MouseEnter      = 0x101,$/;"	e	enum:Event::EventType
+MouseEventParam	event.h	/^    class MouseEventParam{$/;"	c	namespace:Event
+MouseMove	event.h	/^        MouseMove       = 0x102,$/;"	e	enum:Event::EventType
+MouseOut	event.h	/^        MouseOut        = 0x103$/;"	e	enum:Event::EventType
+RClick	event.h	/^        RClick          = 0x003,$/;"	e	enum:Event::EventType
+WinMain	main.cpp	/^int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,LPSTR lpCmdLine, int nCmdShow)$/;"	f
+bbs	layer.h	/^        int bls,brs,bts,bbs; \/\/边框类型...$/;"	m	class:layer
+bbw	layer.h	/^        int blw,brw,btw,bbw; \/\/边框宽度    $/;"	m	class:layer
+bls	layer.h	/^        int bls,brs,bts,bbs; \/\/边框类型...$/;"	m	class:layer
+blw	layer.h	/^        int blw,brw,btw,bbw; \/\/边框宽度    $/;"	m	class:layer
+brs	layer.h	/^        int bls,brs,bts,bbs; \/\/边框类型...$/;"	m	class:layer
+brw	layer.h	/^        int blw,brw,btw,bbw; \/\/边框宽度    $/;"	m	class:layer
+bts	layer.h	/^        int bls,brs,bts,bbs; \/\/边框类型...$/;"	m	class:layer
+btw	layer.h	/^        int blw,brw,btw,bbw; \/\/边框宽度    $/;"	m	class:layer
+h	layer.h	/^        int w,h;$/;"	m	class:layer
+layer	layer.h	/^class layer$/;"	c
+mb	layer.h	/^        int ml,mr,mt,mb; \/\/margin$/;"	m	class:layer
+ml	layer.h	/^        int ml,mr,mt,mb; \/\/margin$/;"	m	class:layer
+mr	layer.h	/^        int ml,mr,mt,mb; \/\/margin$/;"	m	class:layer
+mt	layer.h	/^        int ml,mr,mt,mb; \/\/margin$/;"	m	class:layer
+pb	layer.h	/^        int pl,pr,pt,pb; \/\/padding$/;"	m	class:layer
+pl	layer.h	/^        int pl,pr,pt,pb; \/\/padding$/;"	m	class:layer
+pr	layer.h	/^        int pl,pr,pt,pb; \/\/padding$/;"	m	class:layer
+pt	layer.h	/^        int pl,pr,pt,pb; \/\/padding$/;"	m	class:layer
+type	event.h	/^        EventType type;$/;"	m	class:Event::ClickEventParam
+type	event.h	/^        EventType type;$/;"	m	class:Event::MouseEventParam
+w	layer.h	/^        int w,h;$/;"	m	class:layer
+x	event.h	/^        int x=0,y=0;$/;"	m	class:Event::ClickEventParam
+x	event.h	/^        int x=0,y=0;$/;"	m	class:Event::MouseEventParam
+x	layer.h	/^        int x,y;$/;"	m	class:layer
+y	event.h	/^        int x=0,y=0;$/;"	m	class:Event::ClickEventParam
+y	event.h	/^        int x=0,y=0;$/;"	m	class:Event::MouseEventParam
+y	layer.h	/^        int x,y;$/;"	m	class:layer

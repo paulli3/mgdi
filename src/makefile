@@ -10,7 +10,8 @@ OUTOBJ=/Fo:$@
 
 SOURCES=../bin/main.obj \
 		../bin/App.obj\
-		../bin/debug.obj
+		../bin/debug.obj\
+		../bin/base.obj
 OUTDIR="../bin/"
 
 .SUFFIXES : .cpp
@@ -27,6 +28,8 @@ main.exe:$(SOURCES)
 ../bin/App.obj:App.cpp
 	$(cc) $?  $(DEBUG) $(OUTOBJ)  $(includeDir)
 ../bin/debug.obj:debug.cpp
+	$(cc) $?  $(DEBUG) $(OUTOBJ)  $(includeDir)
+../bin/base.obj:base.cpp
 	$(cc) $?  $(DEBUG) $(OUTOBJ)  $(includeDir)
 
 

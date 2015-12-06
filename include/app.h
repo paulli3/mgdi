@@ -18,6 +18,7 @@ class App
     
     }
 
+    ~App();
     LRESULT CALLBACK Proc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
     private:
         enum OS_CFG {WIN=1,GTK=1,MAC=2};

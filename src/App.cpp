@@ -95,3 +95,7 @@ void App::RegisterWindow()
         exit(0); // 进程退出.....
     }
 }
+
+App::~App(){
+     FreeConsole();
+}
